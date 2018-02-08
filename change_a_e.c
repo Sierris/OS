@@ -5,7 +5,7 @@ int main()
 
 	FILE *file = fopen("test.txt", "r+");
 	int c;
-
+	
 	if(file)
 	{
 		while((c = fgetc(file)) != EOF)

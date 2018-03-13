@@ -2,7 +2,7 @@
 
 Just some excercises from that class on the EIA university
 
-## Codes:
+# Codes:
 
 * [change_a_e.c](https://github.com/Sierris/OS/blob/master/change_a_e.c): Changes all the 'E's from a file to 'A's
 

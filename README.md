@@ -1,4 +1,4 @@
-#OS excercises
+## OS excercises
 
 Just some excercises from that class on the EIA university
 

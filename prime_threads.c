@@ -33,7 +33,8 @@ void *prime(void *ptr)
     int start = thread_num*(n/NTRHEADS)+1;
     
     //printf("Thread: %d start: %d end: %d\n",thread_num,start,end);
-  
+    //printf("\nThread num: %d\n", thread_num);
+
     for (int i = start; i < end; i++)
     {
         prime = 1;
@@ -47,7 +48,7 @@ void *prime(void *ptr)
         }
         if(prime)
         {
-            printf("%d\t", i);
+            printf("Hilo(%d) %d\n",thread_num, i);
         }
     }
 }
